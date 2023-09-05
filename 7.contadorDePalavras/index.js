@@ -1,4 +1,7 @@
 function solucao(texto) {
     let palavras = texto.replace(/\s+/g, ' ').trim().split(/[ ,.;:?!]+/);
-    console.log(palavras.length)
+        let palavrasFiltradas = palavras.filter((palavra)=>{
+        return palavra != ""
+    })
+    console.log(palavrasFiltradas.length)
 }
