@@ -20,6 +20,5 @@ function processData(input) {
             }
         }
     }
-    
     console.log(maiorDistancia)
 } 
